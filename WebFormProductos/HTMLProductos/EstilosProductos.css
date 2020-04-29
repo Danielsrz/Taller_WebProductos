@@ -1,0 +1,84 @@
+﻿body {
+    font: 13px Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #64B5F6;
+    border-radius: .5em;
+}
+
+h3 {
+    border: 1px solid #64B5F6;
+    border-radius: .2em;
+    background-color: #64B5F6;
+    width: 425px;
+    color: white;
+    text-align: center;
+    padding: 1.5px;
+    margin-bottom: 0;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+        /* Destacar el borde de donde esté el cursor */
+        border-color: #64B5F6;
+}
+
+textarea {
+    /* Cajón de Descripción más grande (multilinea) */
+    vertical-align: top;
+    height: 2em;
+}
+
+button {
+    margin-left: .5em;
+    margin-top: 1em;
+    width: 130px;
+    padding-left: 90px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 8px;
+    border: 2px solid #64B5F6;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+    button:hover {
+        /* Cambiar de color al pasar el mouse por arriba*/
+        background-color: #64B5F6;
+        color: white;
+    }

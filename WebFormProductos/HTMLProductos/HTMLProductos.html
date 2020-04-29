@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="EstilosProductos.css" rel="stylesheet" />
+    <script src="JSProductos.js"></script>
+    <title></title>
+</head>
+<body>
+    <h3>Detalles de Productos</h3>
+    <div class="formulario">
+        <form id="productosHTML" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="txtNombre" autocomplete="off">
+                </li>
+                <li>
+                    <label for="desc">Descripción:</label>
+                    <textarea id="desc" name="txtDesc"></textarea>
+                </li>
+                <li>
+                    <label for="price">Precio:</label>
+                    <input type="text" id="price" name="txtPrecio" autocomplete="off">
+                </li>
+                <li>
+                    <label for="stock">Stock:</label>
+                    <input type="text" id="stock" name="txtStock" autocomplete="off">
+                </li>
+            </ul>
+
+
+
+        </form>
+    </div>
+
+    <div class="botones">
+        <button onclick="Guardar()">Agregar</button>
+        <button onclick="Eliminar()">Eliminar</button>
+        <button onclick="Cancelar()">Cancelar</button>
+    </div>
+
+
+</body>
+</html>
